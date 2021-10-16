@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+#wrapper{
+    line-height: 200%;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    background-color: #989FB0;
+}
+h2{
+    color: #6E7992;
+    letter-spacing: 2px;
+    padding: 30px 0px;
+}
+header{
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+
+}
+.title{
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'IM Fell English SC', serif;
+    color: #223052;
+}
+
+nav ul{
+    float: right;
+    width:50%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:20px ;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #0A1328;
+}
+
+nav a:hover{
+    color: #fff;
+    background-color:#0A1328;
+}
+
+.banner{
+    background-image: url(../images/privacy.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.clearfix{
+    clear: both;
+}
+main{
+    width:80%;
+    margin: 40px auto;
+}
+
+.box{
+    background-color: #0A1328;
+    padding: 80px;
+    color: #fff;
+    border: solid 4px #6E7992;
+}
+
+h3{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #A7BBE8;
+    margin: 30px 0;
+}
+a{
+    text-decoration: none;
+    color:#223052;
+}
+
+a:hover{
+    color: #4562A5;
+}
+
+.video{
+    padding: 30px 140px;
+}
+
+.description{
+    padding: 20px 40px;
+    border: solid 3px #95ACE1
+
+}
+
+.indent{
+    padding: 20px 40px;
+}
+
+
