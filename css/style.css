@@ -114,8 +114,30 @@ a:hover{
 
 }
 
-.indent{
+.indent,.paragraph{
     padding: 20px 40px;
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+button{
+    background-color: #000;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+button:hover{
+    background-color: #fff;
+    color:#000;
+    border: 1px solid #000;
+}
 
