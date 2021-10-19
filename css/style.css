@@ -142,3 +142,11 @@ button:hover{
     border: 1px solid #000;
 }
 
+footer{
+    padding: 50px 40px; 
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    border-top: 2px solid #95ACE1;
+    text-align: center;
+}
