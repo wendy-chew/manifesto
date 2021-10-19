@@ -19,10 +19,15 @@ body{
     line-height: 27px;
     background-color: #989FB0;
 }
+
+p{
+    text-align: center;
+}
 h2{
     color: #6E7992;
     letter-spacing: 2px;
     padding: 30px 0px;
+    text-align: center;
 }
 header{
     display: inline-block;
@@ -93,7 +98,9 @@ h3{
     text-decoration: none;
     padding: 10px 20px;
     background-color: #A7BBE8;
-    margin: 30px 0;
+    margin: 45px 0;
+    border: 3px solid #fff;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -101,7 +108,7 @@ a{
 }
 
 a:hover{
-    color: #4562A5;
+    color: #fff;
 }
 
 .video{
@@ -110,7 +117,8 @@ a:hover{
 
 .description{
     padding: 20px 40px;
-    border: solid 3px #95ACE1
+    border: solid 3px #95ACE1;
+    border-radius: 20px;
 
 }
 
